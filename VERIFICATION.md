@@ -45,4 +45,6 @@ The publication receipt below is updated after these checks and remote readback.
 
 The original-PDF follow-up incorporates all recovered table cells and visual findings. The expanded checker passes on the corrected authored tree: **20 files, 98 local-link occurrences, 33 external-link occurrences, 14 typed claims**, including assertions for five automation patterns and all five figure locators/provenance. The final corrected publication is checked through remote commit/tree agreement and a fresh-clone validator run after pushing.
 
+The substantive correction commit **`afc13f31dd6bd074a28e48fa3e86b2650f3659b8`** was pushed and read back in the independent verification clone. Its local, remote, and clone commit IDs agreed; authored and cloned Git tree ID was **`15a972b5e22bd2da0f14b07aac5b337f44824e25`**. The expanded checker passed again on the published clone with the counts above, and both working trees were clean. This receipt update follows that readback and changes documentation only.
+
 External-link counts are syntax/navigation checks. TechRxiv access, public/attachment binary equality, and unaudited bibliography limitations remain. The figure and missing-table-content review limitations are resolved by the attributed original-PDF review above.
