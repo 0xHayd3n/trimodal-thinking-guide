@@ -20,4 +20,13 @@ Run `python scripts/validate_repository.py` to check required files, UTF-8/contr
 
 The publication receipt below is updated after these checks and remote readback. It concerns repository contents and visibility only; no experiments or research findings are validated by it.
 
-Publication receipt: pending publication checks.
+## Publication receipt
+
+- Repository: https://github.com/0xHayd3n/trimodal-thinking-guide
+- GitHub reports `PUBLIC`, `isPrivate: false`, default branch `main`, with the intended full description.
+- An unauthenticated GitHub REST metadata request returned HTTP 200 and `private: false` / `visibility: public`.
+- Fresh remote clone of initial published commit `93098cd8011c9077b2a14ae4eb3aec6e8ed29c8d` matched all 20 tracked files, normalizing only Windows line endings. The local and cloned commit IDs agreed, and the source working tree was clean.
+- The checker passed on both the authored tree and the fresh published clone: **20 files, 98 local-link occurrences, 32 external-link occurrences, 14 typed claims**. Counts describe the initial publication snapshot; this receipt adds no local Markdown links.
+- No empirical results, source PDF, copied original figure, or full paper text were published.
+
+External-link counts are syntax/navigation checks. TechRxiv access and visual-review limitations above remain; repository publication does not resolve or conceal them.
