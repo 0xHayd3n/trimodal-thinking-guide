@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "paper_version": "techrxiv.173153092.25969269/v1",
+  "source_id": "attachment-v1",
+  "claim_types": [
+    "authors_research_question",
+    "conceptual_proposal",
+    "authors_argument",
+    "conceptual_classification",
+    "authors_anticipated_benefit",
+    "background_claim",
+    "authors_research_agenda"
+  ],
+  "empirical_results": [],
+  "claims": [
+    {
+      "id": "T01",
+      "kind": "authors_research_question",
+      "claim": "The paper asks how to conceptualize AI system architecture around human decision needs.",
+      "section": "I-II",
+      "pages": [
+        2,
+        3
+      ],
+      "qualification": "Motivational question, not a test of a system.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 2,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        },
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 3,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T02",
+      "kind": "conceptual_proposal",
+      "claim": "Fast and slow thinking are extended with a proposed control role.",
+      "section": "III",
+      "pages": [
+        4,
+        5
+      ],
+      "qualification": "Architectural proposal; no independent neurological System 3 is established.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 4,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        },
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 5,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T03",
+      "kind": "authors_argument",
+      "claim": "Interfaces, bias, imbalance and control allocation motivate the third role.",
+      "section": "III.C",
+      "pages": [
+        5
+      ],
+      "qualification": "Motivation does not prove bias elimination, stability or optimal switching.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 5,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T04",
+      "kind": "conceptual_proposal",
+      "claim": "A decision catalog can capture 16 requirements elements including automation level.",
+      "section": "IV.A / Table I",
+      "pages": [
+        7
+      ],
+      "qualification": "No evaluation of checklist completeness or effectiveness.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 7,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T05",
+      "kind": "conceptual_classification",
+      "claim": "The paper classifies intuitive, rational and control AI roles.",
+      "section": "IV.B / Table II",
+      "pages": [
+        8
+      ],
+      "qualification": "Examples are broad; only some aspects of LLM use are characterized as intuitive.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 8,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T06",
+      "kind": "conceptual_proposal",
+      "claim": "Application architecture includes actor, interface, application, agent and environment.",
+      "section": "IV.C / Table III",
+      "pages": [
+        8,
+        9
+      ],
+      "qualification": "Principal-agent delegation is a conceptual lens; not proof of agent alignment.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 8,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        },
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 9,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T07",
+      "kind": "conceptual_proposal",
+      "claim": "Data architecture includes actor, interface, data system and data.",
+      "section": "IV.D / Table IV",
+      "pages": [
+        9
+      ],
+      "qualification": "No comparison of data platforms or empirical data-bias treatment.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 9,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T08",
+      "kind": "conceptual_proposal",
+      "claim": "Algorithm architecture includes algorithm, input, output and model/product.",
+      "section": "IV.E / Table V",
+      "pages": [
+        9,
+        10
+      ],
+      "qualification": "Training/validation/test/production are generic categories, not an evaluation dataset.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 9,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        },
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 10,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T09",
+      "kind": "conceptual_classification",
+      "claim": "Four automation levels include two semi-automated variants; humans remain accountable.",
+      "section": "V / Table VI",
+      "pages": [
+        10
+      ],
+      "qualification": "Table right edge clipped in available extraction; uses readable labels and section prose; not a safety scale.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 10,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T10",
+      "kind": "authors_anticipated_benefit",
+      "claim": "The source discusses social, economic, understanding and enterprise-architecture implications.",
+      "section": "VI / Table VII",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "qualification": "No measured social, economic, safety or communication outcomes.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 10,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        },
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 11,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        },
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 12,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T11",
+      "kind": "conceptual_proposal",
+      "claim": "The adaptive EA extension adds decision and algorithm architecture domains.",
+      "section": "VI / Figure 4",
+      "pages": [
+        12
+      ],
+      "qualification": "Proposed integration; prose has a Figure 4/5 cross-reference inconsistency.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 12,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T12",
+      "kind": "conceptual_proposal",
+      "claim": "The architecture pipeline has initiate, discover, implement, govern and adapt stages.",
+      "section": "VI / Figure 5",
+      "pages": [
+        13
+      ],
+      "qualification": "No deployment or optimized project-management protocol is evaluated.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 13,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T13",
+      "kind": "background_claim",
+      "claim": "The economic discussion cites an external claim of more than 80% AI project failure.",
+      "section": "VI; reference 36",
+      "pages": [
+        11,
+        15
+      ],
+      "qualification": "Not measured by Gill; denominator and causal interpretation not independently verified here.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 11,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        },
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 15,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    },
+    {
+      "id": "T14",
+      "kind": "authors_research_agenda",
+      "claim": "Switching conditions, freedom, control allocation, observability, traceability and interfaces remain open research questions.",
+      "section": "VI closing",
+      "pages": [
+        13
+      ],
+      "qualification": "Do not present these as implementation details already solved.",
+      "sources": [
+        {
+          "source_id": "attachment-v1",
+          "pdf_page": 13,
+          "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+        }
+      ]
+    }
+  ]
+}

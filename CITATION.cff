@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Cite Asif Gill's original TechRxiv v1 paper for the research. This repository is an unofficial conceptual reading companion."
+title: "Trimodal Thinking Guide: unofficial reading companion"
+type: software
+authors:
+  - name: "0xHayd3n"
+repository-code: "https://github.com/0xHayd3n/trimodal-thinking-guide"
+url: "https://github.com/0xHayd3n/trimodal-thinking-guide"
+license: CC-BY-4.0
+date-released: "2026-10-20"
+preferred-citation:
+  type: article
+  title: "Trimodal Thinking for Architecting Human-Centric AI Systems: Fast, Slow and Control"
+  authors:
+    - given-names: "Asif"
+      family-names: "Gill"
+  year: 2024
+  month: 11
+  journal: TechRxiv
+  doi: "10.36227/techrxiv.173153092.25969269/v1"
+  url: "https://doi.org/10.36227/techrxiv.173153092.25969269/v1"
+  notes: "v1, posted 13 November 2024; manuscript header says 16 November 2024. Non-peer-reviewed preprint. Biography names the author Asif Q. Gill."

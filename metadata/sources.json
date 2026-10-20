@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "id": "attachment-v1",
+      "kind": "actual_user_attachment",
+      "title": "Trimodal Thinking for Architecting Human-Centric AI Systems: Fast, Slow and Control",
+      "authors": [
+        "Asif Gill"
+      ],
+      "version": "v1",
+      "library_file_id": "libfile_f09aa41527648191a79175c41740225a",
+      "page_count": 16,
+      "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1",
+      "access": "Full attachment text read; image pixels not viewable",
+      "primary_for_claims": true
+    },
+    {
+      "id": "official-record",
+      "kind": "official_public_record",
+      "url": "https://www.techrxiv.org/doi/10.36227/techrxiv.173153092.25969269",
+      "access": "Search resolved exact title and DOI; direct access challenged",
+      "primary_for_claims": false
+    },
+    {
+      "id": "official-v1-pdf",
+      "kind": "official_versioned_pdf_endpoint",
+      "url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.173153092.25969269/v1",
+      "access": "Endpoint returned site challenge; public bytes not used",
+      "primary_for_claims": false
+    },
+    {
+      "id": "format-reference",
+      "kind": "companion_format",
+      "url": "https://github.com/0xHayd3n/harness-learning-guide",
+      "access": "Cloned and inspected README, AGENTS, metadata, citations and validator",
+      "primary_for_claims": false
+    }
+  ],
+  "checked_date": "2026-10-20",
+  "external_background_verification": "Bibliography mapped from v1; cited works not all independently inspected"
+}

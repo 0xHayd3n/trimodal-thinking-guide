@@ -1,0 +1,19 @@
+# Trimodal Thinking Guide
+
+Unofficial companion to Asif Gill's TechRxiv v1 conceptual preprint, DOI 10.36227/techrxiv.173153092.25969269/v1. No empirical framework validation or reproduction.
+
+- [Start and author credit](README.md)
+- [Agent rules](AGENTS.md)
+- [Pinned metadata and provenance](metadata/paper.json)
+- [Source register](metadata/sources.json)
+- [Typed claims and limitations](metadata/claims.json)
+- [Concepts](docs/01-concepts-and-context.md)
+- [Framework and all architecture views](docs/02-framework-and-architecture.md)
+- [Automation and pipeline](docs/03-patterns-and-pipeline.md)
+- [Evidence boundary](docs/04-evidence-and-limitations.md)
+- [Every section, figure, table and reference group](docs/05-paper-map.md)
+- [Original design exercise and future evaluation](docs/06-discussion-and-design.md)
+- [Attribution](ATTRIBUTION.md)
+- [Verification](VERIFICATION.md)
+
+Use one-based PDF pages, including cover. Fast/slow/control are proposed architectural roles. Do not invent performance results, bias guarantees, a switching policy, or a cognitive proof. Human accountability persists at all automation levels. Figure pixel review and binary equality are not established.

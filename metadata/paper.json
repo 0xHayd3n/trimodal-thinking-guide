@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Trimodal Thinking for Architecting Human-Centric AI Systems: Fast, Slow and Control",
+  "authors": [
+    {
+      "name": "Asif Gill",
+      "given": "Asif",
+      "family": "Gill",
+      "name_in_biography": "Asif Q. Gill",
+      "affiliation": "University of Technology Sydney"
+    }
+  ],
+  "source_type": "exploratory conceptual preprint",
+  "doi": "10.36227/techrxiv.173153092.25969269/v1",
+  "version": "v1",
+  "posted_date": "2024-11-13",
+  "manuscript_header_date": "2024-11-16",
+  "date_discrepancy": "Posting cover says 13 November; manuscript header says 16 November. Both preserved.",
+  "page_count": 16,
+  "printed_page_range": "1-15, plus repository cover",
+  "appendices": [],
+  "peer_review_status_of_studied_version": "Attachment explicitly states not peer reviewed.",
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "basis": "Actual attachment cover and repeating footer"
+  },
+  "links": {
+    "version_doi": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1",
+    "official_record": "https://www.techrxiv.org/doi/10.36227/techrxiv.173153092.25969269",
+    "version_pdf": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.173153092.25969269/v1"
+  },
+  "evidence": {
+    "original_empirical_evaluation": false,
+    "empirical_results": [],
+    "reason": "Conceptual framework, architectural classifications, implications and research agenda; no measured framework evaluation.",
+    "implementation_provided_in_studied_source": false
+  },
+  "provenance": {
+    "attachment_filename": "v1.pdf",
+    "library_file_id": "libfile_f09aa41527648191a79175c41740225a",
+    "file_id": "file_000000005e9c81f786389879c4cce7f3",
+    "size_bytes": 722701,
+    "read_route": "Successful full Library text read of actual attachment, all 16 pages",
+    "source_substitution": false,
+    "binary_materialization": "Failed during Windows extended-attribute application: os.setxattr unavailable",
+    "binary_sha256": null,
+    "attachment_binary_equality_verified": false,
+    "figure_review": "Captions and surrounding prose only; Library returned image asset pointers without viewable pixels",
+    "table_limitations": "Right edge clipped in Library representation for several tables, including II-IV, VI and VII. Missing wording not reconstructed.",
+    "official_access_checked": "TechRxiv official v1 links encountered site access challenge; exact source read is actual Library attachment.",
+    "pdf_redistributed": false,
+    "full_text_redistributed": false,
+    "original_figures_redistributed": false
+  },
+  "companion": {
+    "repository": "https://github.com/0xHayd3n/trimodal-thinking-guide",
+    "maintainer": "0xHayd3n",
+    "ai_assistance": true,
+    "experiments_run": false,
+    "implementation_reproduced": false,
+    "license_spdx": "CC-BY-4.0",
+    "reference_format": "https://github.com/0xHayd3n/harness-learning-guide"
+  },
+  "verified_at": "2026-10-20"
+}
