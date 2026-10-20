@@ -88,6 +88,21 @@ try:
     check(paper['version']=='v1' and paper['page_count']==16, 'Version/page count mismatch')
     check(paper['posted_date']=='2024-11-13' and paper['manuscript_header_date']=='2024-11-16', 'Date discrepancy lost')
     check(paper['appendices']==[], 'No appendices in studied source')
+    expected_patterns = [
+        (1,'human','human','human','full'),
+        (2,'AI','human','human','full'),
+        (2,'human','AI','human','full'),
+        (3,'AI','AI','human','full'),
+        (4,'AI','AI','AI','none')]
+    actual_patterns = [(p['level'],p['system_1'],p['system_2'],p['system_3'],p['human_control'])
+                       for p in paper['automation_patterns']]
+    check(actual_patterns==expected_patterns, 'Recovered Table VI pattern/control mismatch')
+    check(all(p['human_accountability'] is True for p in paper['automation_patterns']),
+          'Human accountability must remain at every level')
+    check([(f['number'],f['pdf_page']) for f in paper['figures']]==[(1,4),(2,6),(3,6),(4,12),(5,13)],
+          'Figure map incomplete or wrong page')
+    check(all(f['visual_review']=='parent_original_attachment' for f in paper['figures']),
+          'Figure visual-review provenance missing')
     check(paper['evidence']['original_empirical_evaluation'] is False, 'Wrong evidence type')
     check(paper['evidence']['empirical_results']==[] and claims['empirical_results']==[], 'Invented empirical results')
     check(paper['companion']['experiments_run'] is False and paper['companion']['implementation_reproduced'] is False, 'Scope mismatch')

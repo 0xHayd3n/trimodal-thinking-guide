@@ -33,13 +33,13 @@ All page references below address the actual **16-page TechRxiv v1 attachment**.
 
 | Figure | PDF page | Role in the argument |
 | --- | --- | --- |
-| 1. Trimodal thinking systems: fast, slow and control | 4 | Introduces the proposed three-role framing in an environment |
-| 2. Human-centric AI system architecture conceptualization | 6 | Connects human capabilities and decision needs to conceptual AI architecture |
-| 3. AI system architecture | 6 | Organizes application, data, and algorithm views |
-| 4. Human-centric Adaptive EA Framework v5.0 | 12 | Places decision and algorithm domains in the broader framework |
-| 5. AI system architecture pipeline: based on [5] | 13 | Introduces the iterative initiate/discover/implement/govern/adapt process |
+| 1. Trimodal thinking systems: fast, slow and control | 4 | Environment encloses dashed fast/slow boxes joined by a plain interface/interaction line; dotted control connections have no arrowheads |
+| 2. Human-centric AI system architecture conceptualization | 6 | System labels point into corresponding puzzle pieces in a human head, surrounded by sensory/cognitive and role-attribute labels; no system-to-system flow is specified |
+| 3. AI system architecture | 6 | Users point into a container with parallel application/data/algorithm pillars; no arrows connect the pillars |
+| 4. Human-centric Adaptive EA Framework v5.0 | 12 | Interaction spans Human/Technology/Facility columns; black arrows highlight Decision and Algorithm additions; environment/protection/observability span the base |
+| 5. AI system architecture pipeline: based on [5] | 13 | Initiate/Discover/Implement panels are spanned by a double-headed Govern & Adapt arrow; governance and adaptation are not downstream-only sequential boxes |
 
-Captions and surrounding explanations were read. Original figure pixels were not viewable through the available Library response; this map does not claim to enumerate every box or arrow. VI's prose refers to Figure 5 when discussing the framework domains that accompany Figure 4; keep this source inconsistency in mind.
+Library did not supply viewable figure pixels in this environment; the parent reviewer subsequently inspected all five figures in the original attachment and relayed the observations incorporated above and in modules 2-3. The guide does not invent execution flows from conceptual connectors. VI's prose refers to Figure 5 when discussing the framework domains that accompany Figure 4; keep this source inconsistency in mind.
 
 ## All seven tables
 
@@ -54,6 +54,8 @@ Captions and surrounding explanations were read. Original figure pixels were not
 | VII. Trimodal Thinking Implications | 10-11 | Five implications; heading and content span pages | [Implications](03-patterns-and-pipeline.md#five-implications-proposed-benefits) |
 
 ## Reference reading map
+
+**Table review status:** all seven tables were reviewed in the original attachment. Tables II-IV, VI and VII had source-edge clipping. The parent reviewer recovered the off-page drawing content with widened in-memory page canvases, rendered it, and visually checked the missing descriptions and automation patterns without changing the original PDF. The guide now incorporates that recovered content; the missing-cell limitation is resolved.
 
 This covers the role of **every reference number** in the attachment. It is a navigation aid to the paper's bibliography, not a claim that this guide independently read or verified every cited work. Bibliographic spellings and historical/current claims should be checked against the original works before reuse.
 

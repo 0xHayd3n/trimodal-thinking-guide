@@ -31,7 +31,7 @@ A subtle failure would be passing only the fast role's proposed category to the 
 
 ## Use the pipeline
 
-Initiate by agreeing on the decision and stakeholders. Discover by completing the catalog and architecture views. Implement through a roadmap that begins with human-reviewed suggestions. Govern using criteria tied to the original requirements. Adapt when devices, report types, or policies change. These actions illustrate the source's five stages, without treating the pipeline as validated project management. [VI/Figure 5, PDF p. 13](https://doi.org/10.36227/techrxiv.173153092.25969269/v1)
+Initiate by agreeing on the decision and stakeholders. Discover by completing the catalog and architecture views. Implement through a roadmap that begins with human-reviewed suggestions. Apply governance across this work using criteria tied to the original requirements, and adapt whenever devices, report types, or policies change. Figure 5's Govern & Adapt arrow spans all three panels; these are not steps postponed until after implementation. These actions illustrate the source's five iterative responsibilities, without treating the pipeline as validated project management. [VI/Figure 5, PDF p. 13](https://doi.org/10.36227/techrxiv.173153092.25969269/v1)
 
 ## What an evaluation would need
 

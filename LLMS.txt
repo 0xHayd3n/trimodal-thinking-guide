@@ -16,4 +16,4 @@ Unofficial companion to Asif Gill's TechRxiv v1 conceptual preprint, DOI 10.3622
 - [Attribution](ATTRIBUTION.md)
 - [Verification](VERIFICATION.md)
 
-Use one-based PDF pages, including cover. Fast/slow/control are proposed architectural roles. Do not invent performance results, bias guarantees, a switching policy, or a cognitive proof. Human accountability persists at all automation levels. Figure pixel review and binary equality are not established.
+Use one-based PDF pages, including cover. Fast/slow/control are proposed architectural roles. Do not invent performance results, bias guarantees, a switching policy, or a cognitive proof. Human accountability persists at all automation levels; operational human control remains full at levels 1-3 and absent at level 4. Parent review covered all five figures and seven tables, including visually recovered off-page table content. Govern & Adapt span all three pipeline panels. Public/attachment binary equality is not established.

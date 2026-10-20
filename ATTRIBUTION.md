@@ -22,6 +22,6 @@ This repository contains no source PDF, full paper text, copied original figure/
 
 ## Inspection limits
 
-Library text extraction clips some table right edges; image responses exposed asset pointers without pixels. Figure coverage uses captions and surrounding prose. The Windows materialization helper failed applying extended attributes, so no binary checksum or public/attachment byte comparison is claimed. TechRxiv direct access encountered a site challenge. **No public-source substitution was needed for the primary text.** The later journal publication is outside the studied version.
+Library text omitted right-edge table content and image responses exposed asset pointers without pixels. The parent reviewer subsequently inspected **all five figures and seven tables in the original attachment**. Tables II-IV, VI and VII extend beyond the original page boundary; the reviewer recovered their off-page drawing content using widened in-memory page canvases, rendered it, and visually checked it, leaving the original PDF unchanged. The guide incorporates the resulting figure and table observations and does not redistribute those renderings. The Windows materialization helper failed applying extended attributes, so no binary checksum or public/attachment byte comparison is claimed here. TechRxiv direct access encountered a site challenge. **No public-source substitution was needed.** The later journal publication is outside the studied version.
 
 See [paper metadata](metadata/paper.json) and [VERIFICATION](VERIFICATION.md) for exact provenance and checks.

@@ -12,7 +12,7 @@
       "library_file_id": "libfile_f09aa41527648191a79175c41740225a",
       "page_count": 16,
       "url": "https://doi.org/10.36227/techrxiv.173153092.25969269/v1",
-      "access": "Full attachment text read; image pixels not viewable",
+      "access": "Full attachment page text read locally. Parent reviewer visually inspected all five figures and seven tables in original PDF. Missing table content (II-IV, VI, VII) recovered from off-page drawing objects using widened in-memory canvases, rendered and visually checked, original unchanged. Findings incorporated.",
       "primary_for_claims": true
     },
     {

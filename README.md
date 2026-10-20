@@ -24,7 +24,7 @@ flowchart LR
     E["Operating environment and human accountability"] --- C
 ```
 
-This is an original teaching diagram summarizing III-IV; it is not a reproduction of a source figure or an implemented system. The connections denote conceptual responsibilities, not a specified runtime algorithm.
+This is an original teaching diagram summarizing III-IV; it is not a reproduction of a source figure or an implemented system. Its connections denote conceptual responsibilities, not a specified runtime algorithm. The paper's own Figure 1 uses nondirectional plain/dotted connections without arrowheads; this guide does not infer an execution sequence from it.
 
 ## Choose a reading route
 
@@ -51,7 +51,7 @@ This is an original teaching diagram summarizing III-IV; it is not a reproductio
 | Add a control role to fast and slow thinking | A conceptual extension for architecture design | No proof of an independent third cognitive system or optimal controller |
 | Capture the human decision before selecting AI | A requirements checklist, including automation level and bias | No study measuring checklist effectiveness |
 | Connect application, data, and algorithm architecture | A high-level design decomposition | No deployed reference implementation or integration benchmark |
-| Describe four automation levels | A set of design configurations with human accountability | No safety certification or experimentally established maturity ladder |
+| Describe four automation levels | Five configurations, including two semi-automated variants; human System 3 at levels 1-3 and AI System 3 at level 4, with human accountability throughout | Levels 1-3 explicitly retain full human control; level 4 has no human intervention/control. No safety certification or experimentally established maturity ladder |
 | Embed the framework in adaptive enterprise architecture | A proposed pipeline and research agenda | Expected social/economic benefits are not measured outcomes |
 
 The paper's statement about more than 80% of AI projects failing is attributed to an external RAND source [36]. It is **not a measurement collected by this paper** and is not evidence that trimodal design improves success rates. See [evidence notes](docs/04-evidence-and-limitations.md#the-project-failure-statistic).
@@ -73,7 +73,7 @@ The six reading modules are accompanied by [citation metadata](CITATION.cff), [B
 
 Cite **Gill (2024), TechRxiv v1**, for the research. Kahneman's dual-system account, principal-agent theory, homeostasis, control theory, and Neil D. Lawrence's _The Atomic Human_ are intellectual inputs credited in the source; they are not contributions of this guide. The [paper map](docs/05-paper-map.md#reference-reading-map) explains the role of all 40 source references without reproducing their text.
 
-Original guide material is licensed **CC BY 4.0**. The attachment independently labels the preprint CC BY 4.0. This repository does not redistribute the source PDF, full paper text, original figures, or author code. The complete actual attachment was read through Library; public TechRxiv access was challenged during preparation, and no byte-for-byte public-source comparison or figure pixel review was established. See [provenance](metadata/paper.json).
+Original guide material is licensed **CC BY 4.0**. The attachment independently labels the preprint CC BY 4.0. This repository does not redistribute the source PDF, full paper text, original figures, or author code. The actual attachment text was read through Library, and the parent reviewer inspected all five figures and seven tables in the original PDF. Five tables extended beyond the page boundary; their off-page content was recovered using widened in-memory page canvases, visually checked, and incorporated without changing the original PDF. Public TechRxiv access was challenged during preparation, and no public/attachment binary comparison is claimed. See [provenance](metadata/paper.json).
 
 ## Check the guide
 

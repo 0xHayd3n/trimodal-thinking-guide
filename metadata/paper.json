@@ -19,6 +19,20 @@
   "page_count": 16,
   "printed_page_range": "1-15, plus repository cover",
   "appendices": [],
+  "automation_patterns": [
+    {"level": 1, "variant": "manual", "system_1": "human", "system_2": "human", "system_3": "human", "human_control": "full", "human_accountability": true},
+    {"level": 2, "variant": "semi_automated_fast", "system_1": "AI", "system_2": "human", "system_3": "human", "human_control": "full", "human_accountability": true},
+    {"level": 2, "variant": "semi_automated_slow", "system_1": "human", "system_2": "AI", "system_3": "human", "human_control": "full", "human_accountability": true},
+    {"level": 3, "variant": "automated", "system_1": "AI", "system_2": "AI", "system_3": "human", "human_control": "full", "human_accountability": true},
+    {"level": 4, "variant": "autonomous", "system_1": "AI", "system_2": "AI", "system_3": "AI", "human_control": "none", "human_accountability": true}
+  ],
+  "figures": [
+    {"number": 1, "pdf_page": 4, "visual_review": "parent_original_attachment", "observation": "Environment boundary encloses dashed fast and slow boxes joined by plain Interface & Interaction line. Green control circle below has dotted connections to both boxes and interface-line midpoint; no arrowheads."},
+    {"number": 2, "pdf_page": 6, "visual_review": "parent_original_attachment", "observation": "Environment encloses head with three colored puzzle pieces. System-label arrows point into corresponding pieces, not between systems. Sensory/cognitive and role-attribute labels surround the head; source labels include Rationale and Bounded rationale."},
+    {"number": 3, "pdf_page": 6, "visual_review": "parent_original_attachment", "observation": "Users point through one right-facing arrow into AI System Architecture, containing parallel Application, Data and Algorithm Architecture pillars with no arrows between pillars."},
+    {"number": 4, "pdf_page": 12, "visual_review": "parent_original_attachment", "observation": "Interaction spans Human, Technology and Facility columns. Black arrows highlight Decision and Algorithm additions, not flows. Environment, Protection and Observability span the base above System or ecosystem label."},
+    {"number": 5, "pdf_page": 13, "visual_review": "parent_original_attachment", "observation": "Initiate, Discover and Implement are three side-by-side panels; a horizontal double-headed Govern & Adapt arrow spans all three. Text calls these five iterative stages; Govern/Adapt are not downstream-only boxes."}
+  ],
   "peer_review_status_of_studied_version": "Attachment explicitly states not peer reviewed.",
   "license": {
     "spdx": "CC-BY-4.0",
@@ -46,8 +60,11 @@
     "binary_materialization": "Failed during Windows extended-attribute application: os.setxattr unavailable",
     "binary_sha256": null,
     "attachment_binary_equality_verified": false,
-    "figure_review": "Captions and surrounding prose only; Library returned image asset pointers without viewable pixels",
-    "table_limitations": "Right edge clipped in Library representation for several tables, including II-IV, VI and VII. Missing wording not reconstructed.",
+    "figure_review": "All five figures and all seven tables visually inspected in the original attachment by the parent reviewer; observations relayed and incorporated. Local Library image responses exposed asset pointers without pixels, so this is attributed to parent original-PDF review rather than direct local pixel inspection.",
+    "table_limitations": "Tables II-IV, VI and VII extend beyond the original PDF page boundary. Parent reviewer recovered off-page drawing content by widening in-memory page canvases, rendered and visually checked it, with original PDF unchanged. Missing descriptions and Table VI patterns are resolved and incorporated.",
+    "table_review_status": "all_missing_table_text_recovered_and_visually_checked_by_parent_reviewer",
+    "visual_review_status": "complete_all_5_figures_7_tables_parent_original_attachment_review_incorporated",
+    "figure_1_visual_observation": "Environment rounded boundary encloses dashed System 1 Fast and System 2 Slow boxes linked by a plain Interface & Interaction line. A green System 3 Control circle below has dotted connections to both boxes and the interface-line midpoint. There are no arrowheads.",
     "official_access_checked": "TechRxiv official v1 links encountered site access challenge; exact source read is actual Library attachment.",
     "pdf_redistributed": false,
     "full_text_redistributed": false,
